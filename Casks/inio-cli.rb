@@ -5,8 +5,8 @@
 # built, signed and notarized in the app's repository
 # (scripts/build-cli-tools.sh) and uploaded by scripts/publish-cli-tools.sh.
 cask "inio-cli" do
-  version "2.0.0"
-  sha256 "44f4f3115df7817bb6931362b0240a0111cc6990abd2e122977ddb24e55d35c3"
+  version "2.0.1"
+  sha256 "52f3b8c7c99d04eebd0cf61506b412d4e3d8a8c4db38a7d4220ccc3369a84d50"
 
   url "https://github.com/ok64-de/homebrew-inio/releases/download/v#{version}/inio-cli-#{version}.zip"
   name "inio command-line tools"
